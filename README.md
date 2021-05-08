@@ -34,7 +34,7 @@ Good luck and have fun playing Tic Tac Toe!
 ## Getting Started
 
 To get a local copy up and run the program do this steps on the console:
-- To clone the project to your machine, run `git clone https://github.com/JuliCarracedo/Tick_Tack_Toe.git`
+- To clone the project to your machine, run `git clone https://github.com/petumazo/Tic-Tac-Toe.git`
 - To navigate in to the project folder/directory, run `cd Tick_Tack_Toe/bin`.
 - To run the executable creator, run 'gem install ocra' and then 'ocra main.rb'
 - To go back one folder run 'cd ..'
