@@ -15,8 +15,8 @@ describe Player do
     it 'returns X for Player 1' do
       expect(player.token).to eql('X')
     end
-    it 'returns O for Player 1' do
-      expect(player.token).to eql('O')
+    it 'returns O for Player 2' do
+      expect(player2.token).to eql('O')
     end
   end
   describe '#moves_made' do
