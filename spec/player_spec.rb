@@ -23,5 +23,5 @@ describe Player do
             test_player_2 = Player.new ('test_player_2')
             expect(test_player_2.token).to eq('O')
         end
-    end
+    end 
 end
