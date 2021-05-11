@@ -1,50 +1,46 @@
 require_relative '../lib/player'
 
 describe Player do
-  let(:player) { Player.new('player_test_1') }
-  let(:player2) { Player.new('player_test_2') }
+  let(:player_test_1) { Player.new('player_test_1') }
+  let(:player_test_2) { Player.new('player_test_2') }
   describe '#name' do
     it "returns the player's name" do
-      expect(player.name).to eql('player_test_1')
+      expect(player_test_1.name).to eql('player_test_1')
     end
     it "returns the player's name" do
-      expect(player2.name).to eql('player_test_2')
+      expect(player_test_2.name).to eql('player_test_2')
     end
   end
   describe '#token' do
     it 'returns X for Player 1' do
-      expect(player.token).to eql('X')
+      expect(player_test_1.token).to eql('X')
     end
     it 'returns O for Player 2' do
-      expect(player2.token).to eql('O')
+      expect(player_test_2.token).to eql('O')
     end
   end
   describe '#moves_made' do
-    it "returns the player's move list" do
-      expect(player.moves_made).to eql([])
+    it "Returns empty list when the player had made no move" do
+      expect(player_test_1.moves_made).to eql([])
     end
-    it 'Returns the player\'s move list as it changes' do
-      player.make_move(1)
-      expect(player.moves_made).to eql([1])
+    it 'Returns the list of moves when a move is added' do
+      player_test_1.make_move(1)
+      expect(player_test_1.moves_made).to eql([1])
     end
-    it 'Returns the player\'s move list as it changes with multiple moves' do
-      player.make_move(1)
-      expect(player.moves_made).to eql([1])
+    it 'Returns the list of moves with multiple moves' do
+      player_test_1.make_move(1)
+      player_test_1.make_move(7)
+      player_test_1.make_move(9)
+      expect(player_test_1.moves_made).to eql([1, 7, 9])
     end
   end
   describe '#make_move' do
-    it 'adds an element to the move list' do
-      expect(player.make_move(3)).to eql([3])
+    it 'Add move to the move list' do
+      expect(player_test_1.make_move(1)).to eql([1])
     end
-    it 'adds an element to the move list' do
-      expect(player2.make_move(3)).to eql([3])
-    end
-    it 'adds an element to the move list' do
-      expect(player2.make_move(4)).to eql([4])
-    end
-    it 'adds an element to the move list' do
-      player2.make_move(4)
-      expect(player2.make_move(7)).to eql([4, 7])
+    it 'Add a move to the list of moves when the list is not empty' do
+      player_test_1.make_move(4)
+      expect(player_test_1.make_move(7)).to eql([4, 7])
     end
   end
 end
