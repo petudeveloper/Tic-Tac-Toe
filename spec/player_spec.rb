@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/player'
 
 describe Player do
@@ -20,7 +22,7 @@ describe Player do
     end
   end
   describe '#moves_made' do
-    it "Returns empty list when the player had made no move" do
+    it 'Returns empty list when the player had made no move' do
       expect(player_test_1.moves_made).to eql([])
     end
     it 'Returns the list of moves when a move is added' do
