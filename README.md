@@ -74,6 +74,11 @@ This game is tested with Rspec(domain-specific language (DSL)) testing tool writ
 - GitHub: [@JuliCarracedo](https://github.com/JuliCarracedo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/julian-carracedo-0b8518207/)
 
+👤Fondem Junior
+ - [Github](https://github.com/Fondem-Jr)
+ - [Linkedin](https://www.linkedin.com/in/fondem-junior-57484744/)
+ - [Twitter](https://twitter.com/OpportunistZeus)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
