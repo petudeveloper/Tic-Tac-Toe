@@ -51,7 +51,7 @@ This game is tested with Rspec(domain-specific language (DSL)) testing tool writ
 ## How to get Rspec running
 
 - Open the terminal, type `gem install rspec`
-- Once rspec installed, you can check for the version using 'rspec --version' 
+- Once rspec installed, you can check for the version using `rspec --version`
 - Go to project directory and type `rspec --init` to initialize the rspec in your project
 - You will see a folder `spec` and a file `.rspec`
 - Inside spec folder you'll see a `spec_helper.rb` file.
