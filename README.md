@@ -44,6 +44,23 @@ To get a local copy up and run the program do this steps on the console:
 ### Prerequisites
 - Have ruby compiler installed on your system. You can get it from [here](https://www.ruby-lang.org/es/documentation/installation/)
 
+## Running tests with Rspec
+
+This game is tested with Rspec(domain-specific language (DSL)) testing tool written in Ruby programming language to test Ruby code. It is a behavior-driven development (BDD) framework which is extensively used in production applications.
+
+## How to get Rspec running
+
+- Open the terminal, type `gem install rspec`
+- Once rspec installed, you can check for the version using 'rspec --version' 
+- Go to project directory and type `rspec --init` to initialize the rspec in your project
+- You will see a folder `spec` and a file `.rspec`
+- Inside spec folder you'll see a `spec_helper.rb` file.
+- Create your spec files in the spec folder.
+- In the terminal, type `rspec` to run the spec file
+
+## Rspec output
+![screenshot rspec](./screenshots/rspec.png)
+
 ## Authors
 
 👤 **David Alvarez**
