@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # rubocop: disable Style/ClassVars
 class Player
   attr_reader :name, :token, :moves_made
