@@ -75,9 +75,9 @@ This game is tested with Rspec(domain-specific language (DSL)) testing tool writ
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/julian-carracedo-0b8518207/)
 
 👤Fondem Junior
- - [Github](https://github.com/Fondem-Jr)
- - [Linkedin](https://www.linkedin.com/in/fondem-junior-57484744/)
- - [Twitter](https://twitter.com/OpportunistZeus)
+ - GitHub: [Fondem-Jr](https://github.com/Fondem-Jr)
+ - LinkedIn: [Linkedin](https://www.linkedin.com/in/fondem-junior-57484744/)
+ - Twitter: [OpportunistZeus](https://twitter.com/OpportunistZeus)
 
 ## 🤝 Contributing
 
